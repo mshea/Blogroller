@@ -1,0 +1,145 @@
+@media all and (max-width: 1000px) and (min-width:651px) { /* Midsized stylings */
+
+body {
+margin: .5em;
+}
+
+.container {
+border: 0px;
+padding: 2.5%;
+margin: 0px;
+border: 1px solid #777;
+}
+
+article {
+float: left;
+margin-right: 210px;
+padding: 0 1em 0 0;
+}
+
+aside {
+position: absolute;
+float: right;
+top: 8em;
+right: 1em;
+width: 210px;
+margin-top: 0px;
+font-size: .9em;
+}
+
+}
+
+@media all and (max-width: 650px) { /* small-sized stylings */
+
+body {
+padding: 0;
+margin: 0;
+}
+
+.container {
+width:95%;
+border: 0px;
+padding: 2.5%;
+margin: 0px;
+}
+
+article {
+margin: auto;
+padding: 0px;
+width: 100%;
+}
+
+aside {
+display: none;
+}
+
+
+} /* end small-sized media */
+
+@media all and (min-width: 1001px) { /* Full sized media */
+
+body {
+margin: .5em;
+}
+
+.container {
+width:780px;
+border: 1px solid #777;
+margin-top: 1em;
+padding: 1em;
+}
+
+section {
+margin-top: 0px;
+float:left;
+width:540px;
+}
+
+aside {
+float:right;
+width:210px;
+margin-top: 0px;
+font-size: .9em;
+}
+
+} /* end full-sized media query */
+
+p, li, blockquote  {
+font-family: Verdana, Geneva, sans-serif;
+font-size: 1em;
+line-height: 1.6em;
+}
+
+header p {
+	font-style: italic;
+	font-size: .8em;
+}
+
+h1, h2, h3, aside li, aside p {
+font-family: Verdana, Geneva, sans-serif;
+}
+
+body{
+background:#ccc;
+color: #111;
+}
+
+.container {
+background:#fff;
+margin: auto;
+}
+
+h2{
+font-size:1.2em;
+font-weight:normal;
+line-height:1.5em;
+}
+
+h1 {
+font-size: 1.5em;
+font-weight: normal;
+margin-top: 5px;
+}
+
+a{
+color:#00f;
+text-decoration: none;
+}
+
+a:visited {
+color: #00c;
+}
+
+.return_link a {
+color: #111;
+text-decoration: none;
+}
+
+aside ul {
+list-style-type:none;
+padding:0;
+}
+
+footer {
+clear:both;
+}
